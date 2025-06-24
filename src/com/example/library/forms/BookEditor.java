@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class BookEditorExample extends JFrame{
+public class BookEditor extends JFrame{
     private JPanel contentPane;
     private JTextField authorNameField;
     private JComboBox<Genre> genreComboBox;
@@ -18,7 +18,7 @@ public class BookEditorExample extends JFrame{
     private Library library;
     private SaveButtonListener saveButtonListener;
 
-    public BookEditorExample() {
+    public BookEditor() {
         library = new Library();
 
         setTitle("Book Editor");
